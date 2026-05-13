@@ -1,7 +1,6 @@
 
-export function addTwoNumbers(/*aqui tambien va código*/){
-  let n1 = parseInt(prompt("Ingresa el primer valor"));
-  let n2 = parseInt(prompt("Ingresa el segundo valor"));
+export function addTwoNumbers(n1,n2){
+  
 
   let suma = n1 + n2;
   console.log(suma);
@@ -9,4 +8,4 @@ export function addTwoNumbers(/*aqui tambien va código*/){
   //aqui va tu código
 }
 
-addTwoNumbers();
+addTwoNumbers(3,5);
